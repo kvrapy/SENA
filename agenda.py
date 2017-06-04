@@ -1,4 +1,22 @@
 
+
+def prom():
+  print("lista de estudiantes: ",imprimirlista(matrix_estudiantes,"estudiantes"))
+  print("Ingresa el alumno para ver el promedio")
+  alumn_prom=input()
+  alumn_prom=int(alumn_prom)
+  alumxd=len(matrix_estudiantes[alumn_prom])
+  alumxd=int(alumxd)
+  acom=0
+  acom=int(acom)
+  for i in range(0,alumxd):
+    suma=matrix_estudiantes[alumn_prom][i]
+    acom=acom+suma
+  total=acom/alumxd 
+  print("el promedio es: ",total)
+   #arreglar y utlizar
+
+
 m = []
 a = []#estudiantes
 nt = []#notas
