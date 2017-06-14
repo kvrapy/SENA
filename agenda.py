@@ -1,20 +1,4 @@
 
-def prom():
-  print("lista de estudiantes: ")
-  estudiante.imprimir()
-  print("Ingresa el alumno para ver el promedio")
-  alumn_prom=int(input(">>"))
-
-  a[alumn_prom][3][0]
-
-  alumxd=len(a[alumn_prom][3])
-  acom=0
-  acom=int(acom)
-  for i in range(alumxd):
-    suma=int(a[alumn_prom][3][i])
-    acom=acom+suma
-  total=acom/alumxd 
-  print("el promedio de notas es: ",total)
 
 
 m = []
@@ -151,7 +135,27 @@ def agntas(): #principal
   de = a[o][3]
   agg(de)
   
+#-------------------promedio---------------------
 
+def prom():
+  print("lista de estudiantes: ")
+  estudiante.imprimir()
+  print("Ingresa el alumno para ver el promedio")
+  alumn_prom=int(input(">>"))
+
+  a[alumn_prom][3][0]
+
+  alumxd=len(a[alumn_prom][3])
+  acom=0
+  acom=int(acom)
+  for i in range(alumxd):
+    suma=int(a[alumn_prom][3][i])
+    acom=acom+suma
+  total=acom/alumxd 
+  print("el promedio de notas es: ",total)
+  
+  
+  
 def principal():
     opcion= 1
     while (opcion!= 7):
